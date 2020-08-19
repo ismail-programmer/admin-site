@@ -51,7 +51,7 @@ body {
   border-radius: 5px;
 }
 .welcome_popup {
-  margin-top: 50px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   height: 400px;
@@ -181,4 +181,18 @@ body {
   align-items: center;
   border: 3px solid #999;
   cursor: pointer;
+}
+.comments{
+  position: absolute;
+  bottom: 0;
+  font-size: 12px ;
+}
+.container_btn{
+  display: inline-block;
+  width: 19.5%;
+}
+.all_calls{
+  height: 90px;
+  overflow-y: scroll;
+  margin-top: 20px;
 }
